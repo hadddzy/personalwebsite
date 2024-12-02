@@ -1,0 +1,627 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Prociono";
+}
+
+/* Scroll berlebih */
+#atas {
+  scroll-margin-top: 170px;
+}
+
+#about {
+  scroll-margin-top: 65px;
+}
+
+#skil {
+  scroll-margin-top: 85px;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: rgb(255, 255, 255);
+}
+
+div.containeratas {
+  background-color: rgb(47, 52, 53);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  padding: 0.5rem 1.5rem;
+  font-size: 1em;
+  border-radius: 999px;
+  text-decoration: none;
+  margin: 1rem;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+
+nav ul li a:hover {
+  background-color: orange;
+  transition: all 0.3s ease-in-out;
+}
+
+span.pertama {
+  color: white;
+}
+
+span {
+  font-weight: 500;
+  font-size: 36px;
+  color: orange;
+  transition: 0.3s ease;
+}
+
+span:hover {
+  color: orange;
+  text-shadow: 0 0 25px orange, 0 0 25px orange;
+  transform: scale(1.1);
+}
+
+div.bungkusan-container-atas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+
+  margin-bottom: 10rem;
+}
+
+div.container-satu {
+  gap: 5.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.description {
+  padding-top: 35px;
+
+  width: 45%;
+  line-height: 1.3;
+}
+
+div p.deskripsi-homepage {
+  width: 70%;
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+div.fotoprofil img {
+  width: 350px;
+  border-radius: 999px;
+  transition: 0.3s ease-in-out;
+}
+
+div.fotoprofil img:hover {
+  transform: scale(1.15);
+}
+
+div.description ul {
+  display: flex;
+  gap: 4rem;
+  list-style: none;
+  padding-top: 35px;
+  margin-top: 14px;
+  padding-left: 25px;
+}
+
+div.description ul li {
+  font-size: 22px;
+}
+
+div.description ul li a {
+  color: black;
+  font-weight: 600;
+  transition: 0.5s ease-in-out;
+}
+
+div.description ul li a:hover {
+  color: orange;
+}
+
+h3.judul-main {
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+div.container-dua {
+  padding: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  gap: 6rem;
+  padding-bottom: 2rem;
+}
+
+div.container-content-satu {
+  padding: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  margin-left: 25px;
+  margin-top: 2rem;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 3rem;
+}
+
+div.container-content-satu img {
+  border-radius: 7px;
+  width: 50%;
+  height: 50%;
+}
+
+div.container-content-satu p {
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 65%;
+  height: 65%;
+}
+
+div.container-content-dua {
+  padding: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  margin-right: 25px;
+  margin-top: 11rem;
+  margin-bottom: 50px;
+  display: flex;
+  gap: 3rem;
+  box-sizing: border-box;
+}
+
+div.container-content-dua img {
+  border-radius: 7px;
+  width: 50%;
+  height: 50%;
+}
+
+div.container-content-dua p {
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 65%;
+  height: 65%;
+}
+
+h3.judul-skill {
+  text-align: center;
+  font-size: 25px;
+}
+
+div.container-tiga {
+  width: 1100px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+  box-sizing: border-box;
+}
+
+.skill {
+  width: 50%;
+  padding: 35px;
+  box-sizing: border-box;
+  box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  transition: 0.5s ease-in-out;
+}
+
+.skill:hover {
+  transform: scale(1.15);
+}
+
+div.skill.satu img {
+  padding: 8px;
+  box-sizing: border-box;
+  box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  margin-left: 20%;
+  margin-bottom: 40px;
+}
+div.skill.dua img {
+  box-sizing: border-box;
+  padding: 8px;
+  box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  margin-left: 20%;
+  margin-bottom: 40px;
+}
+div.skill.tiga img {
+  box-sizing: border-box;
+  padding: 8px;
+  box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 7px;
+  margin-left: 20%;
+  margin-bottom: 40px;
+}
+
+footer div.container-footer {
+  background-color: rgb(47, 52, 53);
+}
+
+footer div.container-logo-footer ul {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 1.3rem;
+  gap: 5.5rem;
+}
+
+footer div.container-logo-footer ul li {
+  list-style-type: none;
+}
+
+footer div.container-logo-footer ul li a {
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 600;
+  transition: 0.4s ease-in-out;
+}
+
+footer div.container-logo-footer ul li a:hover {
+  color: orange;
+}
+
+footer div.container-footer-tiga p {
+  color: white;
+  background-color: rgb(43, 43, 43);
+  text-align: center;
+  padding-bottom: 1rem;
+  word-spacing: 5px;
+  padding-top: 1rem;
+}
+
+footer div a.footer-github {
+  text-decoration: none;
+  color: orange;
+  font-size: 15px;
+  text-shadow: 0 0 10px rgb(252, 193, 0), 0 0 10px orange;
+}
+
+@media only screen and (max-width: 750px) {
+  div.containeratas {
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  div.containeratas span.pertama {
+    margin: auto;
+  }
+
+  #atas {
+    scroll-margin-top: 160px;
+  }
+
+  div.containeratas ul {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0.4rem;
+  }
+
+  div.containeratas ul li {
+    margin-top: 1rem;
+  }
+
+  div.containeratas ul li a {
+    font-size: 0.9rem;
+    padding: 0.29rem 0.8rem;
+  }
+
+  div.container-satu {
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  div.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-top: -130px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  div p.deskripsi-homepage {
+    font-size: 17px;
+    width: 100%;
+  }
+
+  span {
+    font-size: 30px;
+  }
+
+  div.fotoprofil img {
+    margin-top: 60px;
+    width: 250px;
+    margin: 50px auto;
+  }
+
+  div.description ul {
+    display: none;
+  }
+
+  #about {
+    scroll-margin-top: 92px;
+  }
+
+  div.container-about {
+    margin-top: -3.8rem;
+  }
+
+  div.container-dua {
+    margin-top: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div.container-content-satu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+  }
+
+  div.container-content-satu p {
+    text-align: justify;
+    width: 100%;
+  }
+
+  div.container-content-dua {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px auto;
+    margin-top: 0.1rem;
+    margin-bottom: 2.8rem;
+  }
+
+  div.container-content-dua p {
+    text-align: justify;
+    width: 100%;
+  }
+
+  #skil {
+    scroll-margin-top: 110px;
+  }
+
+  div.container-tiga {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 1rem;
+    padding-top: 3rem;
+    box-sizing: border-box;
+    margin-bottom: 4.5rem;
+  }
+
+  div.skill.satu {
+    width: 70%;
+  }
+
+  div.skill.dua {
+    width: 70%;
+  }
+
+  div.skill.tiga {
+    width: 70%;
+  }
+
+  div.skill.satu p {
+    text-align: justify;
+  }
+  div.skill.dua p {
+    text-align: justify;
+  }
+  div.skill.tiga p {
+    text-align: justify;
+  }
+
+  footer div.container-footer {
+    width: 100%;
+  }
+
+  footer div.container-logo-footer ul {
+    gap: 3rem;
+  }
+
+  footer div.container-logo-footer ul li a {
+    font-size: 1rem;
+  }
+
+  footer div.container-footer-tiga p {
+    font-size: 0.9rem;
+    padding-top: 1rem;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (min-width: 751px) and (max-width: 992px) {
+  main div.container-satu {
+    max-width: 750px;
+    padding: 0 2rem 0 2rem;
+    margin-bottom: 4.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div p.deskripsi-homepage {
+    width: 340px;
+  }
+
+  div.description ul {
+    display: none;
+  }
+
+  div.fotoprofil img {
+    width: 20rem;
+    transition: 0.3s ease-in-out;
+  }
+
+  div.fotoprofil img:hover {
+    transform: scale(1.05);
+  }
+
+  div.container-about {
+    margin-top: -3rem;
+  }
+
+  #about {
+    scroll-margin-top: 4rem;
+  }
+
+  div.container-dua {
+    margin-top: 0.4rem;
+  }
+
+  div.container-content-satu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div.container-content-satu p {
+    text-align: center;
+    width: 100%;
+  }
+
+  div.container-content-dua {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div.container-content-dua p {
+    text-align: center;
+    width: 100%;
+  }
+
+  div.container-content-satu img {
+    transition: all 0.5s ease-in-out;
+  }
+
+  div.container-content-satu img:hover {
+    transform: scale(1.2);
+  }
+  div.container-content-dua img {
+    transition: all 0.5s ease-in-out;
+  }
+
+  div.container-content-dua img:hover {
+    transform: scale(1.2);
+  }
+
+  h3.judul-skill {
+    margin-top: 5rem;
+  }
+
+  div.container-tiga {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+  }
+
+  div.container-tiga p {
+    text-align: center;
+  }
+
+  .skill:hover {
+    transform: scale(1.1);
+  }
+
+  .skill {
+    width: 50%;
+  }
+
+  footer div.container-logo-footer ul li {
+    margin: 0.6rem;
+  }
+
+  footer div.container-logo-footer ul li a {
+    font-size: 1.3rem;
+  }
+
+  footer div.container-footer-tiga p {
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1114px) {
+  div.container-satu {
+    margin-bottom: 4.8rem;
+  }
+
+  #about {
+    scroll-margin-top: 4rem;
+  }
+
+  div.container-dua {
+    margin-top: 0.2rem;
+  }
+
+  div.container-tiga {
+    width: 90%;
+  }
+
+  footer div.container-logo-footer ul li {
+    margin: 1.8rem;
+  }
+
+  footer div.container-logo-footer ul li a {
+    font-size: 1.3rem;
+  }
+
+  footer div.container-footer-dua ul {
+    gap: 6.5rem;
+  }
+
+  footer div.container-footer-dua ul li a {
+    font-size: 1.1rem;
+  }
+
+  footer div.container-footer-tiga p {
+    font-size: 1.1rem;
+    padding-top: 1rem;
+    box-sizing: border-box;
+  }
+}
